@@ -19,6 +19,6 @@ def add_table(ax, cell_text, col_labels, row_labels, cell_colors=None, bbox=[0, 
     )
     table.auto_set_font_size(False)
     table.set_fontsize(10)
-    for key, cell in table.getcelld().items():
+    for key, cell in table.get_celld().items():
         cell.set_height(0.15)
     return table
